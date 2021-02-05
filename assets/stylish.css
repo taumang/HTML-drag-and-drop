@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient(90deg,#CCFFCC,#1aaa1a);
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+[draggable]{
+    user-select:none;
+}
+
+ul{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+}
+li{
+    list-style-type:none;
+    padding: 5px;
+    margin: 2px;
+    background-color: #CCCCFF;
+    border:2px double #CCCCCC;
+}
